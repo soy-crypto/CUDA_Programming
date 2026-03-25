@@ -11,4 +11,6 @@ int main()
     auto transformation = [=] __host__ __device__ (float temp) {return temp + k * (am_temp - temp);}
     printf("step temp[0] temp[1] temp[2]\n");
 
+    
+
 }
